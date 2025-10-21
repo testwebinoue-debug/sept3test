@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { HomeSmartphone } from "./screens/HomeSmartphone";
+import { HomeDesktop } from "./screens/HomeDesktop";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
-    <HomeSmartphone />
+    <HomeDesktop />
   </StrictMode>,
 );
