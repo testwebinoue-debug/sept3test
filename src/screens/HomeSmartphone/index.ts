@@ -1,0 +1,1 @@
+export { HomeSmartphone } from "./HomeSmartphone";
